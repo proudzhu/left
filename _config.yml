@@ -4,7 +4,7 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
-name: proudzhu
+name: proud zhu
 url: http://proudzhu.github.io
 description: A fantastic blog that is fantastic.
 twitter: proudzhu
