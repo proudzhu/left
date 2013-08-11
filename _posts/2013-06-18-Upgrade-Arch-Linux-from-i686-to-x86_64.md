@@ -18,7 +18,7 @@
 	mount /dev/sda5 /mnt/home
 	mount /dev/sda8 /mnt/opt
 * 使用下面的bash脚本来安装`X86_64`软件包
-{% highlight bash %}
+```bash
 MOUNTED_INSTALL='/mnt'
 TEMP_FILE='/tmp/packages.list'
 pacman --root $MOUNTED_INSTALL -Sy
@@ -27,7 +27,7 @@ pacman --root $MOUNTED_INSTALL -Qq > $TEMP_FILE
 for PKG in $(cat $TEMP_FILE) ; do
    pacman --root $MOUNTED_INSTALL --cachedir $MOUNTED_INSTALL/var/cache/pacman/pkg --noconfirm -S $PKG
 done
-{% endhighlight %}
+```
 * 运行上面的脚本多次
 * 最后编译aur软件, 并`mkinitcpio`和`grub-mkconfig`
 * 最后清理缓存的i686软件包
