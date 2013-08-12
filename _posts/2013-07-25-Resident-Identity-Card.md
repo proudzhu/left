@@ -17,4 +17,4 @@ Refer to [wikipedia](http://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6
 * 最后一位是校验码，这里采用的是ISO 7064:1983,MOD 11-2校验码系统。校验码为一位数，但如果最后采用校验码系统计算的校验码是“10”，碍于身份证号码为18位的规定，则以“X”代替校验码“10”。
 
 ## 校验码计算方法
-    id_checksum = lambda s: str((1-2*int(s,13))%11).replace('10','X')
+`id_checksum = lambda s: str((1-2*int(s,13))%11).replace('10','X')`

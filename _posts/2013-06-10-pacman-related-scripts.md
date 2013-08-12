@@ -4,7 +4,9 @@ layout: post
 使用了arch快一年,由于rolling release,对于pacman这个包管理器使用也是相当的多,下面是一些在arch bbs上淘到的一些pacman相关的scripts.
 
 * aurdiff: diff between local PKGBUILD and the one on AUR 
-```bash
+
+{% highlight bash %}
+#!/usr/bin/bash
 DIFF=${DIFF:-diff}
 if [[ ! -f PKGBUILD ]]; then
     echo "error: No PKGBUILD found in working directory."
@@ -16,10 +18,12 @@ if [[ -z $pkgname ]]; then
     exit 1
 fi >&2
 diff ${@:--u} PKGBUILD <(curl -s "https://aur.archlinux.org/packages/${pkgname:0:2}/$pkgname/PKGBUILD")
-```
+{% endhighlight %}
 
 * absdiff: diff between local PKGBUILD and the one in abs tree   
-```bash
+
+{% highlight bash %}
+#!/usr/bin/bash
 DIFF=${DIFF:-diff}
 if [[ ! -f PKGBUILD ]]; then
     echo "error: No PKGBUILD found in working directory."
@@ -32,4 +36,4 @@ if [[ -z $pkgname ]]; then
 fi >&2
 repo=$(pacman -Si $pkgname | awk ' BEGIN {FS=" "}/^Repository/{printf $1}')          
 diff ${@:--u} PKGBUILD "/var/abs/$repo/$pkgname/PKGBUILD"
-```
+{% endhighlight %}

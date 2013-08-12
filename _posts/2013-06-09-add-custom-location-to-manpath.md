@@ -6,15 +6,15 @@ layout: post
 
 * 在$HOME下新建.manpath,并加入自定义的文件夹即可
 
-    `echo "MANDATORY_MANPATH   /home/proudzhu/.man" > ~/.manpath`
+`echo "MANDATORY_MANPATH   /home/proudzhu/.man" > ~/.manpath`
     
 * 再将z.1复制到增加的文件夹中
-```
-    mkdir ~/.man/man1
-    cp path/to/z.1 ~/.man/man1/
-```
+
+`mkdir ~/.man/man1`
+`cp path/to/z.1 ~/.man/man1/`
+
 * 最后转换格式
 
-   ` gzip ~/.man/man1/z.1`
+` gzip ~/.man/man1/z.1`
 
 * Over
