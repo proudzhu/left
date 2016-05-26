@@ -1,8 +1,4 @@
-﻿---
-layout: post
----
-
-Maybe I should write some blogs from now on.
+﻿Maybe I should write some blogs from now on.
 
 Currently learning:
 
