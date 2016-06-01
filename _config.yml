@@ -1,6 +1,8 @@
 permalink: /posts/:title
 markdown: kramdown
 
+include: ['_pages']
+
 gems:
   - jekyll-sitemap
 
