@@ -3,12 +3,13 @@ permalink: "/cv.html"
 layout: cv
 ---
 
-# Proudzhu
+# Zhihaozhu
 
 Software Engineer and Audio Algorithm Engineer
 
 ### Contact
 
+* Phone: MTg1NjYyMjMxMDk= (base64)
 * Gmail: proudzhu.fdu@gmail.com
 * Github: [proudzhu][github-link]
 * LinkedIn: [zhihaozhu][linkedin-link]
@@ -18,8 +19,9 @@ Software Engineer and Audio Algorithm Engineer
 
 2013 - now  [Rdamicro][rda]. Senior Software Engineer
 
-* Maintain audio framework in android and modem
-* Implement audio algorthm in C and DSP
+* Maintain audio framework in modem
+* Maintain audio hal in android
+* Implement audio algorithm in C and DSP
 
 ---
 ### Education
@@ -40,7 +42,7 @@ Software Engineer and Audio Algorithm Engineer
 
 ---
 ### Self Learning
-* [ccrma-audio-books][ccrma]: online books about audio processing
+* [ccrma-audio-books][ccrma]: Online books about audio processing
 * [machine-learning][stanford-ml]: Machine Learning can also be used in Audio Processing Algorithm
 * [audio][stanford-audio]: Review audio fundamental
 * [cis-194][cis194]: Function Programing is the future
