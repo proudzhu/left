@@ -14,7 +14,6 @@ Software Engineer and Audio Algorithm Engineer
 * Github: [proudzhu][github-link]
 * LinkedIn: [zhihaozhu][linkedin-link]
 
----
 ### Employment
 
 2013 - now  [Rdamicro][rda]. Senior Software Engineer
@@ -23,12 +22,10 @@ Software Engineer and Audio Algorithm Engineer
 * Maintain audio hal in android
 * Implement audio algorithm in C and DSP
 
----
 ### Education
 
 2009 - 1013  [Fudan University][fudan]. Electrical Engineering Department of Fudan University
 
----
 ### Technical skills
 
 * C/C++ : C++14 prefered
@@ -40,14 +37,12 @@ Software Engineer and Audio Algorithm Engineer
 * Machine Learning
 * Git/SVN
 
----
 ### Self Learning
 * [ccrma-audio-books][ccrma]: Online books about audio processing
 * [machine-learning][stanford-ml]: Machine Learning can also be used in Audio Processing Algorithm
 * [audio][stanford-audio]: Review audio fundamental
 * [cis-194][cis194]: Function Programing is the future
 
----
 [github-link]: https://github.com/proudzhu
 [linkedin-link]: http://www.linkedin.com/in/zhihaozhu
 [rda]: http://rdamicro.com
