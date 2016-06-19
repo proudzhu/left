@@ -19,7 +19,7 @@ Also seen in many other languages, such as rust, swift and so on.
 
 Here I use `head` for example.
 
-```
+```haskell
 *Main> head []
 *** Exception: Prelude.head: empty list
 *Main> head "abcd"
@@ -28,7 +28,7 @@ Here I use `head` for example.
 
 It is not safe to apply `head` on an empty list, but we could define a new function.
 
-```
+```haskell
 maybeHead :: [a] -> Maybe a
 maybeHead []     = Nothing
 maybeHead (x:xs) = Just x
@@ -36,7 +36,7 @@ maybeHead (x:xs) = Just x
 
 now we could use `maybeHead` below.
 
-```
+```haskell
 *Main> maybeHead []
 Nothing
 *Main> maybeHead "abcd"
@@ -47,7 +47,7 @@ Just 'a'
 
 or use it in a code block
 
-```
+```haskell
 f :: [a] -> Bool
 f xs = case maybeHead xs of
          Nothing -> False
@@ -56,7 +56,7 @@ f xs = case maybeHead xs of
 
 load in ghci
 
-```
+```haskell
 *Main> f []
 False
 *Main> f "abcd"
@@ -67,7 +67,7 @@ True
 
 optional will be introduced in c++17.
 
-```
+```c++
 #include <iostream>
 #include <experimental/optional>
 
@@ -96,7 +96,7 @@ int main(void)
 
 output
 
-```
+```bash
 x input is a zero length string
 0
 42
