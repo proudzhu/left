@@ -34,7 +34,6 @@ Software Engineer and Audio Algorithm Engineer
 * Linux : Archlinux on personal computer
 * Audio Algorithm (Webrtc, AEC, NS, AGC, VAD)
 * Audio Codec
-* Machine Learning
 * Git/SVN
 
 ### Self Learning
