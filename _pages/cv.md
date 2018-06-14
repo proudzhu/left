@@ -16,7 +16,12 @@ Software Engineer and Audio Algorithm Engineer
 
 ### Employment
 
-2013 - now  [Rdamicro][rda]. Senior Software Engineer
+2017.06 - now [Bestechnic][bes]. Audio Algorithm Engineer
+
+* Develop audio and speech algorithm for bluetooth devices
+* Maintain audio framework in BT SDK
+
+2013.08 - 2017.06  [Rdamicro][rda]. Senior Software Engineer
 
 * Maintain audio framework in modem
 * Maintain audio hal in android
@@ -24,26 +29,19 @@ Software Engineer and Audio Algorithm Engineer
 
 ### Education
 
-2009 - 1013  [Fudan University][fudan]. Electrical Engineering Department of Fudan University
+2009 - 2013  [Fudan University][fudan]. Electrical Engineering Department of Fudan University
 
 ### Technical skills
 
-* C/C++ : C++14 prefered
+* C/C++
 * Octave/Matlab
-* Python
-* Linux : Archlinux on personal computer
-* Audio Algorithm (Webrtc, AEC, NS, AGC, VAD)
+* Audio Algorithm (EQ, DRC, AEC, NS, AGC, VAD, Beamforming)
 * Audio Codec
 * Git/SVN
 
-### Self Learning
-* [ccrma-audio-books][ccrma]: Online books about audio processing
-* [machine-learning][stanford-ml]: Machine Learning can also be used in Audio Processing Algorithm
-* [audio][stanford-audio]: Review audio fundamental
-* [cis-194][cis194]: Function Programing is the future
-
 [github-link]: https://github.com/proudzhu
 [linkedin-link]: http://www.linkedin.com/in/zhihaozhu
+[bes]: http://www.bestechnic.com
 [rda]: http://rdamicro.com
 [fudan]: http://www.fudan.edu.cn
 [ccrma]: https://ccrma.stanford.edu/~jos/
