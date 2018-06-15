@@ -1,5 +1,15 @@
 permalink: /posts/:title
 markdown: kramdown
+highlighter: rouge
+kramdown:
+    input: GFM
+    hard_wrap: false
+    parse_block_html: true
+    parse_span_html: true
+    auto_ids: true
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
+    enable_coderay: false
+    syntax_highlighter: rouge
 
 include: ['_pages']
 
@@ -9,4 +19,7 @@ gems:
 name: Proud Zhu
 url: http://proudzhu.github.io
 description: A fantastic blog that is fantastic.
-twitter: proudzhu
+
+
+# Outputting
+verbose: true

@@ -67,7 +67,7 @@ True
 
 optional will be introduced in c++17.
 
-```c++
+```cpp
 #include <iostream>
 #include <experimental/optional>
 
