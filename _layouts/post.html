@@ -11,6 +11,10 @@ layout: layout
     {{ page.date | date: "%B %e, %Y" }}
   </section>
 
+  <section class="toc">
+    {% include toc.html html=content %}
+  </section>
+
   {{ content }}
 
   </section>
